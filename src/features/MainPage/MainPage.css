@@ -10,6 +10,21 @@
   align-items: center;
   border-right: solid 1px grey;
 }
+@media screen and (max-width: 1080px) {
+  .MainPage .MainPage-Content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .MainPage {
+    grid-template-rows: 20rem 1fr;
+    grid-template-columns: 1fr;
+  }
+  .MainPage .MainPage-Content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .MainPage-Content{
   padding: 2rem;
   display: grid;
