@@ -1,0 +1,32 @@
+.TextForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TextForm-Label{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.TextForm-Text{
+    resize: none;
+    height: 4rem;
+    width: 90%;
+    outline: none;
+}
+
+.TextForm-Date{
+    margin-top: 1rem;
+}
+
+.TextForm-Button{
+    margin-top: 1rem;
+    width: 9rem;
+    height: 2rem;
+}
+.TextForm-Error{
+    color: red;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,30 @@
+.MainPage-DateGroup{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #CCCCCC;
+}
+
+.MainPage-DateGroup-Date{
+    padding-bottom: 1rem;
+}
+
+.MainPage-DateGroup-Record{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 1px grey;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.MainPage-DateGroup-Record:last-child{
+    margin-bottom: 0;
+}
+.MainPage-DateGroup-Record-Text_decoration{
+    text-decoration: line-through;
+}
+.MainPage-DateGroup-Record-Text{
+    word-break: break-all;
+}
